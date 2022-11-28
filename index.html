@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="./style/index.css">
+  <script src="./script/index.js" defer></script>
+</head>
+
+<body>
+
+  <div class="header">
+    <img src="./images/logo.svg" alt="" class="logo">
+    <div class="link">
+      <button class="close-menu-button">
+        <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg">
+          <g fill="currentcolor" fill-rule="evenodd">
+            <path d="m2.393.98 22.628 22.628-1.414 1.414L.979 2.395z" />
+            <path d="M.98 23.607 23.609.979l1.414 1.414L2.395 25.021z" />
+          </g>
+        </svg>
+      </button>
+      <div class="former">
+        <div class="item" data-item-type="menu">
+          <span class="text">Features</span>
+          <svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" class="dropdown-img">
+            <path stroke="currentcolor" stroke-width="1.5" fill="none" d="m1 5 4-4 4 4" />
+          </svg>
+          <div class="menu align-right">
+            <div class="container">
+              <a href="#" class="item">
+                <div class="img-container">
+                  <img src="./images/icon-todo.svg" alt="">
+                </div>
+                <span>
+                  Todo List
+                </span>
+              </a>
+              <a href="#" class="item">
+                <div class="img-container">
+                  <img src="./images/icon-calendar.svg" alt="">
+                </div>
+                <span>
+                  Calendar
+                </span>
+              </a>
+              <a href="#" class="item">
+                <div class="img-container">
+                  <img src="./images/icon-reminders.svg" alt="">
+                </div>
+                <span>
+                  Reminders
+                </span>
+              </a>
+              <a href="#" class="item">
+                <div class="img-container">
+                  <img src="./images/icon-planning.svg" alt="">
+                </div>
+                <span>
+                  Planning
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="item" data-item-type="menu">
+          <span class="text">Company</span>
+          <svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" class="dropdown-img">
+            <path stroke="currentcolor" stroke-width="1.5" fill="none" d="m1 5 4-4 4 4" />
+          </svg>
+          <div class="menu">
+            <div class="container">
+              <a href="#" class="item">
+                <span>
+                  History
+                </span>
+              </a>
+              <a href="#" class="item">
+                <span>
+                  Our Team
+                </span>
+              </a>
+              <a href="#" class="item">
+                <span>
+                  Blog
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="item">
+          <span class="text">Careers</span>
+        </a>
+        <a href="#" class="item"><span class="text">About</span></a>
+      </div>
+      <div class="latter">
+        <a href="#" class="item">Login</a>
+        <a href="#" class="item border">Register</a>
+      </div>
+    </div>
+    <div class="link-mobile-layout"></div>
+    <button class="menu-button">
+      <img src="./images/icon-menu.svg" alt="">
+    </button>
+  </div>
+
+  <div class="container">
+    <div class="content">
+      <div class="former">
+        <span class="title">Make <span>remote work</span></span>
+        <span class="description">Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.</span>
+        <a href="#" class="lm">Learn more</a>
+      </div>
+      <div class="g-img">
+        <img src="./images/client-databiz.svg" alt="">
+        <img src="./images/client-audiophile.svg" alt="">
+        <img src="./images/client-meet.svg" alt="">
+        <img src="./images/client-maker.svg" alt="">
+      </div>
+    </div>
+    <img src="./images/image-hero-desktop.png" alt="" class="b-img">
+  </div>
+  </div>
+</body>
+
+</html>
